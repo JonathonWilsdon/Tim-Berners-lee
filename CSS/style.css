@@ -78,6 +78,15 @@ header nav a {
   font-family: "Montserrat", sans-serif;
 }
 
+@media only screen and (max-width: 1450px) {
+  .header-items {
+    left: 175px;
+  }
+  header nav {
+    padding: 25px 175px 25px 0;
+  }
+}
+
 @media only screen and (max-width: 1160px) {
   header nav {
     padding-right: 0px;

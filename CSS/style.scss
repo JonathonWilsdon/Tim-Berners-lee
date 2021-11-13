@@ -13,7 +13,7 @@ p{
 
 
 header{
-    background-image: url(images/banner.jpg);
+    background-image: url(/images/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,6 +63,16 @@ header{
             font-size: 25.89px;
             letter-spacing: 2.4px;
             font-family: $primary-font;
+        }
+    }
+
+    @media only screen and (max-width: 1450px){
+        .header-items{
+            left: 175px;
+        }
+
+        header nav{
+            padding: 25px 175px 25px 0;
         }
     }
 
