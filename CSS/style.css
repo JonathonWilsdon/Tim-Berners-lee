@@ -635,11 +635,12 @@ header nav a {
   #adult-life .container .flex-container .box .text {
     color: #fff;
     font-family: "Montserrat", sans-serif;
-    margin-bottom: 1rem;
+    margin-bottom: .7rem;
     padding-right: 2rem;
+    font-size: 15px;
   }
   #adult-life .container .flex-container .box img {
-    height: 80%;
+    height: 87%;
   }
 }
 
