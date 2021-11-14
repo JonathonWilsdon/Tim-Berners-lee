@@ -631,7 +631,19 @@ header nav a {
   }
 }
 
-@media only screen and (max-width: 548px) {
+@media only screen and (max-height: 950px) {
+  #adult-life .container .flex-container .box .text {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 1rem;
+    padding-right: 2rem;
+  }
+  #adult-life .container .flex-container .box img {
+    height: 80%;
+  }
+}
+
+@media only screen and (max-height: 950px) and (max-width: 548px) {
   #adult-life {
     width: 100%;
     padding: 60px 0;
@@ -699,113 +711,105 @@ header nav a {
   }
 }
 
-#inventions {
-  width: 100%;
-  padding: 60px 0;
-  background-color: #F1F1F1;
+@media only screen and (max-height: 950px) {
+  #inventions {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #F1F1F1;
+  }
+  #inventions .container {
+    width: 1120px;
+    margin: 0 auto;
+  }
+  #inventions .container .content-title {
+    font-size: 2.9rem;
+    color: #0000003a;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    margin-top: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  #inventions .container .flex-container {
+    width: 100%;
+  }
+  #inventions .container .flex-container .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  #inventions .container .flex-container .row .box {
+    width: 700px;
+  }
+  #inventions .container .flex-container .row .box .text {
+    color: #1A1A1A;
+    font-family: "Montserrat", sans-serif;
+    padding-right: 2rem;
+  }
+  #inventions .container .flex-container .row .block {
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    -webkit-box-shadow: 0px 10px 10px 1px #1a1a1a2a;
+            box-shadow: 0px 10px 10px 1px #1a1a1a2a;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: .5rem 2rem;
+  }
+  #inventions .container .flex-container .row .block .number {
+    width: 50px;
+    height: 50px;
+    -webkit-box-shadow: 0px 10px 13px 1px #1a1a1a2a;
+            box-shadow: 0px 10px 13px 1px #1a1a1a2a;
+    position: absolute;
+    top: -25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #fff;
+    border-radius: 100px;
+    font-size: 2rem;
+  }
+  #inventions .container .flex-container .row .block .date {
+    font-size: 1.3rem;
+    margin: 3rem 0 1rem;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+  }
+  #inventions .container .flex-container .row .block .text {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
 }
 
-#inventions .container {
-  width: 1120px;
-  margin: 0 auto;
-}
-
-#inventions .container .content-title {
-  font-size: 2.9rem;
-  color: #0000003a;
-  font-weight: 700;
-  margin-bottom: 2rem;
-  margin-top: 20px;
-  font-family: "Playfair Display", serif;
-}
-
-#inventions .container .flex-container {
-  width: 100%;
-}
-
-#inventions .container .flex-container .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-  margin-bottom: 2rem;
-}
-
-#inventions .container .flex-container .row .box {
-  width: 700px;
-}
-
-#inventions .container .flex-container .row .box .text {
-  color: #1A1A1A;
-  font-family: "Montserrat", sans-serif;
-  padding-right: 2rem;
-}
-
-#inventions .container .flex-container .row .block {
-  width: 300px;
-  height: 100%;
-  background-color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: relative;
-  -webkit-box-shadow: 0px 10px 10px 1px #1a1a1a2a;
-          box-shadow: 0px 10px 10px 1px #1a1a1a2a;
-  border-radius: 4px;
-  margin-bottom: 2rem;
-  text-align: center;
-  padding: .5rem 2rem;
-}
-
-#inventions .container .flex-container .row .block .number {
-  width: 50px;
-  height: 50px;
-  -webkit-box-shadow: 0px 10px 13px 1px #1a1a1a2a;
-          box-shadow: 0px 10px 13px 1px #1a1a1a2a;
-  position: absolute;
-  top: -25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #fff;
-  border-radius: 100px;
-  font-size: 2rem;
-}
-
-#inventions .container .flex-container .row .block .date {
-  font-size: 1.3rem;
-  margin: 3rem 0 1rem;
-  font-weight: 700;
-  font-family: "Playfair Display", serif;
-}
-
-#inventions .container .flex-container .row .block .text {
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
-  font-size: 1rem;
-  margin-bottom: 3rem;
-}
-
-@media only screen and (max-width: 1160px) {
+@media only screen and (max-height: 950px) and (max-width: 1160px) {
   #inventions {
     width: 100%;
     padding: 60px 0;
@@ -903,7 +907,7 @@ header nav a {
   }
 }
 
-@media only screen and (max-width: 547px) {
+@media only screen and (max-height: 950px) and (max-width: 547px) {
   #inventions {
     width: 100%;
     padding: 60px 0;
@@ -1001,59 +1005,54 @@ header nav a {
   }
 }
 
-#communication {
-  width: 100%;
-  padding: 60px;
+@media only screen and (max-height: 950px) {
+  #communication {
+    width: 100%;
+    padding: 60px;
+  }
+  #communication .container {
+    width: 1120px;
+    margin: 0 auto;
+  }
+  #communication .container .content-title {
+    font-size: 2.9rem;
+    color: #0000003a;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    margin-top: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  #communication .container .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #communication .container .flex-container .box {
+    width: 50%;
+  }
+  #communication .container .flex-container .box .text {
+    padding-left: 2rem;
+    color: #1A1A1A;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+  #communication .container .flex-container .box .source {
+    color: #616161;
+    text-decoration: none;
+  }
+  #communication .container .flex-container .box:hover {
+    color: #1A1A1A;
+  }
 }
 
-#communication .container {
-  width: 1120px;
-  margin: 0 auto;
-}
-
-#communication .container .content-title {
-  font-size: 2.9rem;
-  color: #0000003a;
-  font-weight: 700;
-  margin-bottom: 2rem;
-  margin-top: 20px;
-  font-family: "Playfair Display", serif;
-}
-
-#communication .container .flex-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-#communication .container .flex-container .box {
-  width: 50%;
-}
-
-#communication .container .flex-container .box .text {
-  padding-left: 2rem;
-  color: #1A1A1A;
-  font-family: "Montserrat", sans-serif;
-  margin-bottom: 2rem;
-  line-height: 1.5;
-}
-
-#communication .container .flex-container .box .source {
-  color: #616161;
-  text-decoration: none;
-}
-
-#communication .container .flex-container .box:hover {
-  color: #1A1A1A;
-}
-
-@media only screen and (max-width: 1160px) {
+@media only screen and (max-height: 950px) and (max-width: 1160px) {
   #communication {
     width: 100%;
     padding: 60px 0;
@@ -1094,7 +1093,7 @@ header nav a {
   }
 }
 
-@media only screen and (max-width: 548px) {
+@media only screen and (max-height: 950px) and (max-width: 548px) {
   #communication {
     width: 100%;
     padding: 60px 0;
@@ -1138,41 +1137,39 @@ header nav a {
   }
 }
 
-#personal-life {
-  width: 100%;
-  padding: 60px 0;
-  background-color: #482FF7;
+@media only screen and (max-height: 950px) {
+  #personal-life {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #482FF7;
+  }
+  #personal-life .container {
+    width: 1120px;
+    margin: 0 auto;
+  }
+  #personal-life .container .content-title {
+    font-size: 2.9rem;
+    color: #ffffff52;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    margin-top: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  #personal-life .container .row {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  #personal-life .container .content {
+    background-color: #533AFF;
+    width: 100%;
+    color: #fff;
+    padding: 2rem;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+  }
 }
 
-#personal-life .container {
-  width: 1120px;
-  margin: 0 auto;
-}
-
-#personal-life .container .content-title {
-  font-size: 2.9rem;
-  color: #ffffff52;
-  font-weight: 700;
-  margin-bottom: 2rem;
-  margin-top: 20px;
-  font-family: "Playfair Display", serif;
-}
-
-#personal-life .container .row {
-  width: 100%;
-  margin-bottom: 2rem;
-}
-
-#personal-life .container .content {
-  background-color: #533AFF;
-  width: 100%;
-  color: #fff;
-  padding: 2rem;
-  font-family: "Montserrat", sans-serif;
-  line-height: 1.5;
-}
-
-@media only screen and (max-width: 1160px) {
+@media only screen and (max-height: 950px) and (max-width: 1160px) {
   #personal-life {
     width: 100%;
     padding: 60px 0;
@@ -1204,7 +1201,7 @@ header nav a {
   }
 }
 
-@media only screen and (max-width: 548px) {
+@media only screen and (max-height: 950px) and (max-width: 548px) {
   #personal-life {
     width: 100%;
     padding: 60px 0;
@@ -1236,26 +1233,26 @@ header nav a {
   }
 }
 
-#conclusion {
-  width: 100%;
-  padding: 60px 0;
+@media only screen and (max-height: 950px) {
+  #conclusion {
+    width: 100%;
+    padding: 60px 0;
+  }
+  #conclusion .container {
+    width: 850px;
+    margin: 0 auto;
+    border-left: 2px solid rgba(0, 0, 0, 0.145);
+    border-right: 2px solid rgba(0, 0, 0, 0.145);
+    padding: 0 40px;
+  }
+  #conclusion .container .text {
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+  }
 }
 
-#conclusion .container {
-  width: 850px;
-  margin: 0 auto;
-  border-left: 2px solid rgba(0, 0, 0, 0.145);
-  border-right: 2px solid rgba(0, 0, 0, 0.145);
-  padding: 0 40px;
-}
-
-#conclusion .container .text {
-  text-align: justify;
-  font-family: "Montserrat", sans-serif;
-  line-height: 1.5;
-}
-
-@media only screen and (max-width: 1160px) {
+@media only screen and (max-height: 950px) and (max-width: 1160px) {
   #conclusion {
     width: 100%;
     padding: 60px 0;
@@ -1271,7 +1268,7 @@ header nav a {
   }
 }
 
-@media only screen and (max-width: 548px) {
+@media only screen and (max-height: 950px) and (max-width: 548px) {
   #conclusion {
     width: 100%;
     padding: 60px 0;
@@ -1289,25 +1286,25 @@ header nav a {
   }
 }
 
-#bibliography {
-  width: 100%;
-  padding: 60px 0;
-  background-color: #F1F1F1;
+@media only screen and (max-height: 950px) {
+  #bibliography {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #F1F1F1;
+  }
+  #bibliography .container {
+    width: 1120px;
+    margin: 0 auto;
+  }
+  #bibliography .container li {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    margin-bottom: .5rem;
+    font-size: .7rem;
+  }
 }
 
-#bibliography .container {
-  width: 1120px;
-  margin: 0 auto;
-}
-
-#bibliography .container li {
-  font-family: "Montserrat", sans-serif;
-  line-height: 1.5;
-  margin-bottom: .5rem;
-  font-size: .7rem;
-}
-
-@media only screen and (max-width: 1160px) {
+@media only screen and (max-height: 950px) and (max-width: 1160px) {
   #bibliography {
     width: 100%;
     padding: 60px 0;
@@ -1325,7 +1322,7 @@ header nav a {
   }
 }
 
-@media only screen and (max-width: 548px) {
+@media only screen and (max-height: 950px) and (max-width: 548px) {
   #bibliography {
     width: 100%;
     padding: 60px 0;
@@ -1344,23 +1341,23 @@ header nav a {
   }
 }
 
-footer {
-  width: 100%;
-  padding: 20px 0;
-  background-color: #482FF7;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  color: #fff;
-}
-
-footer a {
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  padding-bottom: 2px;
-  text-underline-offset: 2px;
-}
-
-footer a:hover {
-  text-decoration: none;
+@media only screen and (max-height: 950px) {
+  footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #482FF7;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+  }
+  footer a {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 2px;
+    text-underline-offset: 2px;
+  }
+  footer a:hover {
+    text-decoration: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

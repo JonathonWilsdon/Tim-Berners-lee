@@ -585,6 +585,25 @@ header{
     }
 }
 
+@media only screen and (max-height: 950px){
+    #adult-life{
+        .container{
+            .flex-container{
+                .box{
+                    .text{
+                        color: #fff;
+                        font-family: $primary-font;
+                        margin-bottom: 1rem;
+                        padding-right: 2rem;
+                    }
+                    img{
+                        height: 80%;
+                    }
+                }
+            }
+        }
+}
+
 @media only screen and (max-width: 548px){
     #adult-life{
         width: 100%;
@@ -1226,4 +1245,5 @@ footer{
             text-decoration: none;
         }
     }
+}
 }
