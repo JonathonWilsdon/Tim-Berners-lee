@@ -36,6 +36,10 @@ header{
         }a{
             text-decoration: none;
             color: #fff;
+            transition: .2s;
+            &:hover{
+                color: #d0d0d0;
+            }
         }
     }
 }
@@ -585,25 +589,7 @@ header{
     }
 }
 
-@media only screen and (max-height: 950px){
-    #adult-life{
-        .container{
-            .flex-container{
-                .box{
-                    .text{
-                        color: #fff;
-                        font-family: $primary-font;
-                        margin-bottom: .7rem;
-                        padding-right: 2rem;
-                        font-size: 15px;
-                    }
-                    img{
-                        height: 87%;
-                    }
-                }
-            }
-        }
-}
+
 
 @media only screen and (max-width: 548px){
     #adult-life{
@@ -1246,5 +1232,4 @@ footer{
             text-decoration: none;
         }
     }
-}
 }

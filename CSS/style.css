@@ -46,6 +46,12 @@ header nav li {
 header nav a {
   text-decoration: none;
   color: #fff;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+header nav a:hover {
+  color: #d0d0d0;
 }
 
 .header-items {
@@ -631,20 +637,7 @@ header nav a {
   }
 }
 
-@media only screen and (max-height: 950px) {
-  #adult-life .container .flex-container .box .text {
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
-    margin-bottom: .7rem;
-    padding-right: 2rem;
-    font-size: 15px;
-  }
-  #adult-life .container .flex-container .box img {
-    height: 87%;
-  }
-}
-
-@media only screen and (max-height: 950px) and (max-width: 548px) {
+@media only screen and (max-width: 548px) {
   #adult-life {
     width: 100%;
     padding: 60px 0;
@@ -712,7 +705,6 @@ header nav a {
   }
 }
 
-@media only screen and (max-height: 950px) {
   #inventions {
     width: 100%;
     padding: 60px 0;
@@ -808,9 +800,9 @@ header nav a {
     font-size: 1rem;
     margin-bottom: 3rem;
   }
-}
 
-@media only screen and (max-height: 950px) and (max-width: 1160px) {
+
+@media only screen and (max-width: 1160px) {
   #inventions {
     width: 100%;
     padding: 60px 0;
@@ -908,7 +900,7 @@ header nav a {
   }
 }
 
-@media only screen and (max-height: 950px) and (max-width: 547px) {
+@media only screen and (max-width: 547px) {
   #inventions {
     width: 100%;
     padding: 60px 0;
@@ -1006,7 +998,6 @@ header nav a {
   }
 }
 
-@media only screen and (max-height: 950px) {
   #communication {
     width: 100%;
     padding: 60px;
@@ -1051,9 +1042,9 @@ header nav a {
   #communication .container .flex-container .box:hover {
     color: #1A1A1A;
   }
-}
 
-@media only screen and (max-height: 950px) and (max-width: 1160px) {
+
+@media only screen and (max-width: 1160px) {
   #communication {
     width: 100%;
     padding: 60px 0;
@@ -1094,7 +1085,7 @@ header nav a {
   }
 }
 
-@media only screen and (max-height: 950px) and (max-width: 548px) {
+@media only screen and (max-width: 548px) {
   #communication {
     width: 100%;
     padding: 60px 0;
@@ -1138,7 +1129,6 @@ header nav a {
   }
 }
 
-@media only screen and (max-height: 950px) {
   #personal-life {
     width: 100%;
     padding: 60px 0;
@@ -1168,9 +1158,9 @@ header nav a {
     font-family: "Montserrat", sans-serif;
     line-height: 1.5;
   }
-}
 
-@media only screen and (max-height: 950px) and (max-width: 1160px) {
+
+@media only screen and (max-width: 1160px) {
   #personal-life {
     width: 100%;
     padding: 60px 0;
@@ -1202,7 +1192,7 @@ header nav a {
   }
 }
 
-@media only screen and (max-height: 950px) and (max-width: 548px) {
+@media only screen and (max-width: 548px) {
   #personal-life {
     width: 100%;
     padding: 60px 0;
@@ -1234,7 +1224,6 @@ header nav a {
   }
 }
 
-@media only screen and (max-height: 950px) {
   #conclusion {
     width: 100%;
     padding: 60px 0;
@@ -1251,9 +1240,8 @@ header nav a {
     font-family: "Montserrat", sans-serif;
     line-height: 1.5;
   }
-}
 
-@media only screen and (max-height: 950px) and (max-width: 1160px) {
+@media only screen and (max-width: 1160px) {
   #conclusion {
     width: 100%;
     padding: 60px 0;
@@ -1269,7 +1257,7 @@ header nav a {
   }
 }
 
-@media only screen and (max-height: 950px) and (max-width: 548px) {
+@media only screen and (max-width: 548px) {
   #conclusion {
     width: 100%;
     padding: 60px 0;
@@ -1287,7 +1275,7 @@ header nav a {
   }
 }
 
-@media only screen and (max-height: 950px) {
+
   #bibliography {
     width: 100%;
     padding: 60px 0;
@@ -1303,9 +1291,9 @@ header nav a {
     margin-bottom: .5rem;
     font-size: .7rem;
   }
-}
 
-@media only screen and (max-height: 950px) and (max-width: 1160px) {
+
+@media only screen and (max-width: 1160px) {
   #bibliography {
     width: 100%;
     padding: 60px 0;
@@ -1323,7 +1311,7 @@ header nav a {
   }
 }
 
-@media only screen and (max-height: 950px) and (max-width: 548px) {
+@media only screen and (max-width: 548px) {
   #bibliography {
     width: 100%;
     padding: 60px 0;
@@ -1342,7 +1330,6 @@ header nav a {
   }
 }
 
-@media only screen and (max-height: 950px) {
   footer {
     width: 100%;
     padding: 20px 0;
@@ -1360,5 +1347,18 @@ header nav a {
   footer a:hover {
     text-decoration: none;
   }
+
+  /* laptop screen */
+
+  @media only screen and (min-height: 800px) and (max-height: 900px){
+    #adult-life .container .flex-container .box .text{
+        margin-bottom: .7rem;
+        padding-right: 2rem;
+        font-size: 15px;
+    }
+    #adult-life .container .flex-container .box img{
+          height: 87%;
+  }
 }
+
 /*# sourceMappingURL=style.css.map */
