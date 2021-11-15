@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/d21c781d85.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <title>Tim Berners-Lee</title>
 </head>
@@ -32,11 +33,11 @@
     
     <section id="intro">
         <div class="container">
-            <div class="box">
+            <div class="box in">
                 <h2 class="content-title">Introduction</h2>
                 <p class="text">It was just over 30 years ago when the first website was launched which changed the way we communicate information forever. The man behind the creation of the World Wide Web which we know and love today, was computer scientist Tim Berners-Lee.</p>
             </div>
-            <div class="box">
+            <div class="box in">
                 <img src="./images/intro.jpg" width="100%" alt="Tim Berners-Lee using a computer">
                 <a href="https://home.cern/science/computing/birth-web" class="source">Via https://home.cern/science/computing/birth-web</a>
             </div>
@@ -91,11 +92,11 @@
         <div class="container">
             <h2 class="content-title">Adult Life</h2>
             <div class="flex-container">
-                <div class="box">
+                <div class="box al">
                     <p class="text">After his successful tenure at Plessey communications, he started work as an independent contractor at CERN which was a European council for nuclear research. It was during his time here he had the idea of a lifetime. While at CERN, he wrote a program called ‘Enquire’ for his own personal use. [2] It was a simple hypertext program which would later lay the conceptual foundation for the development of the ‘World Wide Web.’ After a brief departure from CERN he returned back in 1984 after spending a few years at John Pooles Image Computer Systems.</p>
                     <p class="text">During his time here he was given first hand experience in computer networking, some of the work that took place in this sector included real-time control firmware, graphics, and communications software, and a generic macro language. Upon his return to CERN, he noticed that the company had a problem – during the 1980s, thousands of people were working for ‘CERN’ and they needed to share information and data with each other. Which sparked an idea in his mind about a simpler and more efficient method of data sharing, had to be devised.</p>
                 </div>
-                <div class="box left">
+                <div class="box left al">
                     <img src="./images/adult-life.png" width="100%" alt="Tim Berners-Lee as an adult">
                     <a href="https://www.npg.org.uk/collections/search/portrait/mw87899/Sir-Tim-Berners-Lee" class="source">Via https://www.npg.org.uk/collections/search/portrait/mw87899/Sir-Tim-Berners-Lee</a>
                 </div>
@@ -116,7 +117,7 @@
         <div class="container">
             <h2 class="content-title">Inventions</h2>
             <div class="flex-container">
-                <div class="row">
+                <div class="row inv">
                     <div class="box">
                         <p class="text">It all started back in 1989 when he asked himself ‘how can we make sending information to people much more simple and effective?’ Tim had a clear vision and thought process and laid out his proposal to be heard. Initially his idea was not immediately accepted – in fact his Boss at the time noted the words ‘Vague but exciting’ on the front of his proposal. [3] Although it was never an official CERN project, his boss Mike Sendall was able to give Tim some time away from work on it. Official work on this project started in September 1990, using one of Steve Jobs NeXT computers.[3]</p>
                     </div>
@@ -132,7 +133,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row inv">
                     <div class="box">
                         <p class="text">It took him less than a month to establish the three main technologies needed to create this idea. He created HTML, which is a coding language to create markup on webpages and build an overall structure of a web page. He also created the URI (Uniform Resource Identifier) which we know today as URL, or the unique name/identifier to your website. And finally HTTP – also known as the hypertext protocol, this Allows for the retrieval of linked resources from across the web. [3]</p>
                     </div>
@@ -148,7 +149,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row inv">
                     <div class="box">
                         <p class="text">Tim and others advocated to ensure that CERN would agree to make the underlying code available on a royalty-free basis, forever. This decision was announced in April 1993, and sparked a global wave of creativity, collaboration and innovation never seen before. In 2003, the companies developing new web standards committed to a Royalty Free Policy for their work. In 2014, the year we celebrated the web’s 25th birthday, almost two in five people around the world were using it. [3]</p>
                     </div>
@@ -164,7 +165,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row inv">
                     <div class="box">
                         <p class="text">By this point he knew he was on to something, he created in a sense a new revolution which would change the way we communicate and view information for ever. In 1994 after leaving CERN for the final time he set to work creating the W3C (Word Wide Web Consortium). [4] The main aim for the W3C is to set standards in web, these can range from compatibility, accessibility and development guidelines to make sure that everything which is being published to the web is appropriate and fits into their standards to help people view it, whom of which may rely on assistance. </p>
                     </div>
@@ -188,11 +189,11 @@
         <div class="container">
             <h2 class="content-title">How Has Tim-Berners<br> Lee Changed How We<br> Communicate?</h2>
             <div class="flex-container">
-                <div class="box">
+                <div class="box com">
                     <img src="./images/communication.jpg" width="100%" alt="Tim Berners-Lee as a man">
                     <a href="https://www.vanityfair.com/news/2018/07/the-man-who-created-the-world-wide-web-has-some-regrets" class="source">Via https://www.vanityfair.com/news/2018/07/the-man-who-created-the-world-wide-web-has-some-regrets</a>
                 </div>
-                <div class="box">
+                <div class="box com">
                     <div class="text">We rely on communication a lot, through daily life and work – it can determine whether you have got a job, attend an online awards ceremony, present important information to a group of people remotely – just to name a few. I guess one reason how Tim Berners-Lee has changed the way we communicate is by how he has made it free and open source to everyone. At a click of a button you can send an email to a friend, accomplice or colleague via the HTTP and FTP protocols. The fact that it is free has started a movement which  sparked a global wave of creativity, collaboration and innovation never seen before. It makes services such as posting letters, job leaflets on shop windows, and newspapers nearly obsolete as you can do all of that via the web.</div>
                     <div class="text">It has become more apparent than ever the importance of online communication the past 18 months. Throughout the Coronavirus Pandemic, we have relied on services such as Zoom, Microsoft teams and skype to get us through meetings with people and share important information through a safe and recognisable third-party. </div>
                 </div>
@@ -203,17 +204,17 @@
     <section id="personal-life">
         <div class="container">
             <h2 class="content-title">Personal Life</h2>
-            <div class="row">
+            <div class="row pl">
                 <div class="content">
                     <p class="text">Berners-Lee was married in 1990 to programmer analyst Nancy Carlson, they lived in london for a while and had two children Ben and Alice. Tim and Nancy later divorced in 2011 but less than four years later Tim was re-married to Rosemary Leith they celebrated their marriage on 20 June 2014 at the Chapel Royal, St James’s Palace in London. [1]</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row pl">
                 <div class="content right">
                     <p class="text">In June 2009, British PM Gordon Brown made the announcement that Berners-Lee, together with Nigel Shadbolt, would be working with the UK government so they could make data more accessible and open to people that needed it on the web site data.gov.uk. [5] Later in 2016 he was offered the job of research fellow when he joined the Department of Computer Science at Oxford University. He received his knighthood back in 2004 from queen Elizabeth II for his amazing work in being one of the biggest pioneers in web. [7]</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row pl">
                 <div class="content">
                     <p class="text">A few years later in 2016, he received The ACM A.M Turing award for ‘inventing the World Wide Web, the first web browser, and the fundamental protocols and algorithms allowing the Web to scale. [6]</p>
                 </div>
