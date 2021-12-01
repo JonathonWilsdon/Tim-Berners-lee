@@ -1383,7 +1383,11 @@ footer a:hover {
     width: 100%;
     padding: 60px 0;
     background-color: #482FF7;
+<<<<<<< HEAD
     max-height: 85vh;
+=======
+    max-height: 95vh;
+>>>>>>> 4729d03d79ba83fdaa1ed5dc29757ac0235464dd
   }
   #adult-life .container {
     max-width: 1120px;
