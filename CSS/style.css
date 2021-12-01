@@ -570,55 +570,6 @@ header nav a:hover {
   color: #3d3d3d13;
 }
 
-
-@media only screen and (max-height: 930px) {
-  #adult-life {
-    width: 100%;
-    padding: 60px 0;
-    background-color: #482FF7;
-    max-height: 85vh;
-  }
-  #adult-life .container {
-    max-width: 1120px;
-    margin: 0 auto;
-  }
-  #adult-life .container .content-title {
-    font-size: 2.9rem;
-    color: #ffffff52;
-    font-weight: 700;
-    margin-bottom: 2rem;
-    margin-top: 20px;
-    font-family: "Playfair Display", serif;
-  }
-  #adult-life .container .flex-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  #adult-life .container .flex-container .box {
-    width: 50%;
-  }
-  #adult-life .container .flex-container .box .text {
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
-    margin-bottom: .5rem;
-    padding-right: 4rem;
-  }
-  #adult-life .container .flex-container .box img {
-    overflow: visible;
-    height: 700px;
-  }
-  #adult-life .container .flex-container .box .source {
-    color: #616161;
-    text-decoration: none;
-  }
-}
-
-
-
 @media only screen and (max-width: 1160px) {
   #adult-life {
     width: 100%;
@@ -685,8 +636,6 @@ header nav a:hover {
     color: #3d3d3d13;
   }
 }
-
-
 
 @media only screen and (max-width: 548px) {
   #adult-life {
@@ -755,8 +704,6 @@ header nav a:hover {
     color: #3d3d3d13;
   }
 }
-
-
 
 #inventions {
   width: 100%;
@@ -1362,7 +1309,12 @@ header nav a:hover {
   margin: 0 auto;
 }
 
-#bibliography .container li {
+#bibliography .container ol {
+  text-align: center;
+  list-style-type: none;
+}
+
+#bibliography .container ol li {
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
   margin-bottom: .5rem;
@@ -1426,4 +1378,49 @@ footer a:hover {
   text-decoration: none;
 }
 
+@media only screen and (max-height: 930px) {
+  #adult-life {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #482FF7;
+    max-height: 85vh;
+  }
+  #adult-life .container {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+  #adult-life .container .content-title {
+    font-size: 2.9rem;
+    color: #ffffff52;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    margin-top: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  #adult-life .container .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #adult-life .container .flex-container .box {
+    width: 50%;
+  }
+  #adult-life .container .flex-container .box .text {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: .5rem;
+    padding-right: 4rem;
+  }
+  #adult-life .container .flex-container .box img {
+    overflow: visible;
+    height: 700px;
+  }
+  #adult-life .container .flex-container .box .source {
+    color: #616161;
+    text-decoration: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */

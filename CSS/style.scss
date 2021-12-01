@@ -1171,11 +1171,15 @@ header{
     .container{
         width: 1120px;
         margin: 0 auto;
-        li{
-            font-family: $primary-font;
-            line-height: 1.5;
-            margin-bottom: .5rem;
-            font-size: .7rem;
+        ol{
+            text-align: center;
+            list-style-type: none;
+            li{
+                font-family: $primary-font;
+                line-height: 1.5;
+                margin-bottom: .5rem;
+                font-size: .7rem;
+            }
         }
     }
 }
