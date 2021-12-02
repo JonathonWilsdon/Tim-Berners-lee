@@ -1317,8 +1317,9 @@ header nav a:hover {
 #bibliography .container ol li {
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
-  margin-bottom: .5rem;
+  margin-bottom: .9rem;
   font-size: .7rem;
+  word-break: break-all;
 }
 
 @media only screen and (max-width: 1160px) {
@@ -1383,48 +1384,7 @@ footer a:hover {
     width: 100%;
     padding: 60px 0;
     background-color: #482FF7;
-<<<<<<< HEAD
-    max-height: 85vh;
-=======
-    max-height: 95vh;
->>>>>>> 4729d03d79ba83fdaa1ed5dc29757ac0235464dd
-  }
-  #adult-life .container {
-    max-width: 1120px;
-    margin: 0 auto;
-  }
-  #adult-life .container .content-title {
-    font-size: 2.9rem;
-    color: #ffffff52;
-    font-weight: 700;
-    margin-bottom: 2rem;
-    margin-top: 20px;
-    font-family: "Playfair Display", serif;
-  }
-  #adult-life .container .flex-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  #adult-life .container .flex-container .box {
-    width: 50%;
-  }
-  #adult-life .container .flex-container .box .text {
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
-    margin-bottom: .5rem;
-    padding-right: 4rem;
-  }
-  #adult-life .container .flex-container .box img {
-    overflow: visible;
-    height: 700px;
-  }
-  #adult-life .container .flex-container .box .source {
-    color: #616161;
-    text-decoration: none;
+    min-height: 90vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
