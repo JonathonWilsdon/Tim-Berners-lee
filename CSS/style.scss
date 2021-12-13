@@ -9,6 +9,7 @@ $primary-font: 'Montserrat', sans-serif;
 $secondary-font: 'Playfair Display', serif;
 p{
     line-height: 1.5!important;
+    text-align: justify;
 }
 
 
@@ -68,6 +69,21 @@ header{
             font-size: 25.89px;
             letter-spacing: 2.4px;
             font-family: $primary-font;
+            margin-bottom: 3rem;
+        }
+
+        .cta{
+            font-family: $primary-font;
+            color: #000;
+            background-color: #fff;
+            padding: 15px 50px;
+            text-decoration: none;
+            border-radius: 1px;
+            transition: .1s linear;
+        }
+
+        .cta:hover{
+            background: rgba(255, 255, 255, 0.829);
         }
     }
 
@@ -234,7 +250,7 @@ header{
 
     #quote{
         width: 100%;
-        padding: 60px 0;
+        padding: 130px 0;
         background: #F1F1F1;
         position: relative;
         .quote{
@@ -249,8 +265,8 @@ header{
         }
         i{
             position: absolute;
-            top: 20px;
-            left: 30%;
+            top: 110px;
+            left: 29%;
             font-size: 7rem;
             z-index: 0;
             color: #3d3d3d0a;
@@ -715,7 +731,10 @@ header{
                         align-items: center;
                         background-color: #fff;
                         border-radius: 100px;
-                        font-size: 2rem;
+                        font-size: 1.5rem;
+                        span{
+                            color: #482FF7;
+                        }
                     }
                     .date{
                         font-size: 1.3rem;
@@ -724,8 +743,8 @@ header{
                         font-family: $secondary-font;
                     }
                     .text{
-                        font-family: $secondary-font;
-                        font-weight: 700;
+                        font-family: $primary-font;
+                        font-weight: 400;
                         font-size: 1rem;
                         margin-bottom: 3rem;
                     }
@@ -1172,7 +1191,7 @@ header{
         width: 1120px;
         margin: 0 auto;
         ol{
-            text-align: center;
+            text-align: left;
             list-style-type: none;
             li{
                 font-family: $primary-font;
@@ -1226,9 +1245,12 @@ footer{
     width: 100%;
     padding: 20px 0;
     background-color: #482FF7;
-    text-align: center;
+    text-align: center!important;
     font-family: $primary-font;
     color: #fff;
+    .text{
+        text-align: center;
+    }
     a{
         color: #fff;
         font-family: $primary-font;
